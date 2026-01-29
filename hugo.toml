@@ -1,0 +1,13 @@
+baseURL = "https://energyflash-powertrader.netlify.app"
+languageCode = "es-es"
+title = "PowerTrader EnergyFlash"
+theme = "PaperMod"
+
+[params]
+    env = "production"
+    title = "PowerTrader EnergyFlash"
+    description = "Inteligencia diaria de mercados energéticos"
+    
+    [params.homeInfoParams]
+        Title = "EnergyFlash ⚡"
+        Content = "Informes diarios de mercado, precios SPOT y drivers de energía."
