@@ -1,19 +1,17 @@
 ---
-title: "Informe de Mercado Electrico"
+title: "Informe Diario de Energia"
 date: 2026-01-30
 draft: false
 ---
 
-## Generacion Diaria (MWh Totales)
+Resumen de generacion en MWh totales:
 
-| Tecnologia | MWh |
-| :--- | :--- |
-| Nuclear | 165430 |
-| Eolica | 92110 |
-| Solar | 45300 |
-| Hidraulica | 38200 |
-| Ciclo Combinado | 22150 |
+- Nuclear: 165430
+- Eolica: 92110
+- Solar: 45300
+- Hidraulica: 38200
+- Ciclo Combinado: 22150
 
----
+Driver de mercado: El precio del gas TTF se mantiene estable en 28.50 euros/MWh.
 
-> **Contacto:** facturas@powertrader.es
+Contacto: facturas@powertrader.es
