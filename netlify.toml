@@ -1,5 +1,6 @@
 [build]
-  command = "git submodule update --init --recursive; hugo --gc --minify"
+  # Este comando crea la carpeta, descarga el tema por internet y construye la web
+  command = "mkdir -p themes/PaperMod && curl -L https://github.com/adityatelange/hugo-PaperMod/archive/master.tar.gz | tar -xz -C themes/PaperMod --strip-components=1 && hugo --gc --minify"
   publish = "public"
 
 [build.environment]
