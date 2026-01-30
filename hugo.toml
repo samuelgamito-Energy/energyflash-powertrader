@@ -1,5 +1,5 @@
-# IMPORTANTE: Ponemos una URL absoluta para que no falle el JSON
-baseURL = "https://energyflash-powertrader.netlify.app"
+# PEGA AQUÍ LA DIRECCIÓN QUE HAS COPIADO DE NETLIFY
+baseURL = "https://energyflash.netlify.app/"
 languageCode = "es-es"
 title = "PowerTrader EnergyFlash"
 theme = "PaperMod"
@@ -10,6 +10,5 @@ theme = "PaperMod"
     description = "Inteligencia diaria de mercados"
     author = "PowerTrader"
 
-    # Configuración mínima para que el tema no se queje
     [params.assets]
         disableHLJS = true
