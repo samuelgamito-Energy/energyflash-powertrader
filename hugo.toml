@@ -1,4 +1,4 @@
-baseURL = "https://energyflash-powertrader.netlify.app"
+baseURL = "/"
 languageCode = "es-es"
 title = "PowerTrader EnergyFlash"
 theme = "PaperMod"
