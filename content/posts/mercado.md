@@ -12,6 +12,6 @@ Resumen de generacion en MWh totales:
 - Hidraulica: 38200
 - Ciclo Combinado: 22150
 
-Driver de mercado: El precio del gas TTF se mantiene estable en 28.50 euros/MWh.
+Driver de mercado: El precio del gas TTF se mantiene estable.
 
 Contacto: facturas@powertrader.es
