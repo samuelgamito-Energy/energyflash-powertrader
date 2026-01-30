@@ -5,5 +5,8 @@ theme = "PaperMod"
 
 [params]
     env = "production"
-    # Esto desactiva el código que está dando error de comas
-    schema = false
+    description = "Inteligencia diaria de mercados"
+    # Añadimos esto para que el Schema no falle
+    [params.schema]
+        publisherType = "Organization"
+        name = "PowerTrader"
