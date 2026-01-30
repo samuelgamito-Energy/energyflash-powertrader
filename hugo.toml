@@ -6,4 +6,3 @@ theme = "PaperMod"
 [params]
     env = "production"
     title = "PowerTrader EnergyFlash"
-    description = "Inteligencia diaria de mercados"
