@@ -1,12 +1,16 @@
 baseURL = "/"
 languageCode = "es-es"
-title = "Energy"
+title = "PowerTrader EnergyFlash"
 theme = "PaperMod"
 
 [params]
-    # Desactivamos absolutamente todo lo que pueda generar código JSON
-    disableShare = true
-    disableHLJS = true
-    editPost = false
-    ShowReadingTime = false
-    ShowCodeCopyButtons = false
+    env = "production"
+    title = "PowerTrader EnergyFlash"
+    description = "Inteligencia diaria de mercados"
+    
+    # IMPORTANTE: No añadimos ni 'editPost' ni 'schema' aquí.
+    # Al no ponerlos, el tema simplemente no carga esas funciones.
+    # Así evitamos el error de tipos.
+
+    [params.assets]
+        disableHLJS = true
