@@ -1,4 +1,5 @@
-baseURL = "/"
+# IMPORTANTE: Ponemos una URL absoluta para que no falle el JSON
+baseURL = "https://energyflash-powertrader.netlify.app"
 languageCode = "es-es"
 title = "PowerTrader EnergyFlash"
 theme = "PaperMod"
@@ -7,10 +8,8 @@ theme = "PaperMod"
     env = "production"
     title = "PowerTrader EnergyFlash"
     description = "Inteligencia diaria de mercados"
-    
-    # IMPORTANTE: No añadimos ni 'editPost' ni 'schema' aquí.
-    # Al no ponerlos, el tema simplemente no carga esas funciones.
-    # Así evitamos el error de tipos.
+    author = "PowerTrader"
 
+    # Configuración mínima para que el tema no se queje
     [params.assets]
         disableHLJS = true
