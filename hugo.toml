@@ -1,12 +1,12 @@
 baseURL = "/"
 languageCode = "es-es"
-title = "PowerTrader EnergyFlash"
+title = "Energy"
 theme = "PaperMod"
 
 [params]
-    env = "production"
-    description = "Inteligencia diaria de mercados"
-    # Añadimos esto para que el Schema no falle
-    [params.schema]
-        publisherType = "Organization"
-        name = "PowerTrader"
+    # Desactivamos absolutamente todo lo que pueda generar código JSON
+    disableShare = true
+    disableHLJS = true
+    editPost = false
+    ShowReadingTime = false
+    ShowCodeCopyButtons = false
