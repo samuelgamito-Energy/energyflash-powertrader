@@ -1,4 +1,3 @@
-# PEGA AQUÍ LA DIRECCIÓN QUE HAS COPIADO DE NETLIFY
 baseURL = "https://energyflash.netlify.app/"
 languageCode = "es-es"
 title = "PowerTrader EnergyFlash"
@@ -11,4 +10,10 @@ theme = "PaperMod"
     author = "PowerTrader"
 
     [params.assets]
-        disableHLJS = true
+        disableHLJS = true # Excelente para mantener la web ligera
+
+# --- BLOQUE DE SEGURIDAD PARA VER LAS TABLAS HTML ---
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
