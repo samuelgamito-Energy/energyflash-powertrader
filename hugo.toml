@@ -1,4 +1,4 @@
-baseURL = "baseURL = "https://energyflash.powertrader.es/"
+baseURL = "https://energyflash.powertrader.es/"
 languageCode = "es-es"
 title = "PowerTrader EnergyFlash"
 theme = "PaperMod"
