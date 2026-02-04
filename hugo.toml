@@ -17,3 +17,10 @@ theme = "PaperMod"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+# Añadir al final del archivo hugo.toml
+[[menu.main]]
+    identifier = "universe"
+    name = "⮌ Volver a PowerTrader"
+    url = "https://www.powertrader.es"
+    weight = 10
