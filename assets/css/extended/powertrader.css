@@ -1,0 +1,195 @@
+/* --- ESTILOS INFORME DIARIO (PowerTrader) --- */
+
+/* 1. CONTENEDOR PRINCIPAL (LA TARJETA) */
+.pt-card {
+    background-color: #ffffff;
+    max-width: 100%; /* Se adapta al ancho de PaperMod */
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    border: 1px solid #eee;
+}
+
+/* 2. CABECERA */
+.pt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #004481;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.pt-title {
+    margin: 0;
+    color: #1a1a1a;
+    font-size: 1.8rem; /* Usamos rem para accesibilidad */
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.pt-subtitle {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 400;
+    display: block;
+    margin-top: 5px;
+}
+
+/* 3. CAJA RESUMEN (AMARILLA) */
+.pt-lead-box {
+    background-color: #fffcf0;
+    border-left: 6px solid #F2A900;
+    padding: 25px;
+    margin-bottom: 40px;
+    border-radius: 0 8px 8px 0;
+}
+
+.pt-lead-title {
+    color: #d35400;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.pt-lead-text {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #2c3e50;
+}
+
+/* 4. TÍTULOS DE SECCIÓN */
+.pt-section-title {
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 8px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+/* Colores de Sección */
+.pt-color-elec { color: #004481; }
+.pt-color-gas { color: #e67e22; }
+.pt-color-global { color: #27ae60; }
+.pt-color-retail { color: #8e44ad; }
+.pt-color-fut { color: #2980b9; }
+.pt-color-boe { color: #34495e; }
+
+/* 5. CONTENIDO GENERAL */
+.pt-text-block {
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 25px;
+    text-align: justify;
+    font-size: 1.05em;
+}
+
+.pt-chart-box {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: center;
+    background: #fff;
+}
+
+/* Wording Futuros */
+.pt-futuros-wording {
+    font-size: 1em;
+    color: #2c3e50;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #eaf2f8;
+    border-left: 4px solid #2980b9;
+    border-radius: 4px;
+    font-style: italic;
+}
+
+/* 6. TABLAS */
+.pt-table-container {
+    overflow-x: auto; /* Scroll horizontal en móviles */
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.pt-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.9em;
+    min-width: 600px; /* Fuerza scroll si es muy estrecho */
+}
+
+.pt-table th {
+    background-color: #222222;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    padding: 12px;
+}
+
+.pt-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #333;
+    background-color: #fff;
+}
+
+.pt-table tr:nth-child(even) td {
+    background-color: #f8f9fa;
+}
+
+/* 7. FOOTER */
+.pt-footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 0.8em;
+    color: #888;
+    text-align: center;
+}
+
+/* --- ADAPTACIÓN MODO OSCURO (PAPERMOD) --- */
+/* PaperMod añade la clase 'dark' al body */
+body.dark .pt-card {
+    background-color: #1d1e20; /* Fondo oscuro de PaperMod */
+    border-color: #333;
+    box-shadow: none;
+}
+
+body.dark .pt-title { color: #e0e0e0; }
+body.dark .pt-subtitle { color: #aaa; }
+
+body.dark .pt-lead-box {
+    background-color: #2e2e33;
+    border-left-color: #F2A900;
+}
+body.dark .pt-lead-text { color: #dcdcdc; }
+
+body.dark .pt-text-block { color: #dcdcdc; }
+
+body.dark .pt-chart-box {
+    background-color: #2e2e33;
+    border-color: #444;
+}
+/* Invertimos colores de gráficos SVG (Líneas) para que resalten */
+body.dark .pt-chart-box svg text { fill: #ccc !important; }
+body.dark .pt-chart-box svg line[stroke="#eee"] { stroke: #444 !important; }
+
+body.dark .pt-table th { background-color: #111; }
+body.dark .pt-table td {
+    background-color: #2e2e33;
+    color: #eee;
+    border-color: #444;
+}
+body.dark .pt-table tr:nth-child(even) td { background-color: #36363b; }
+
+body.dark .pt-futuros-wording {
+    background-color: #1e2830;
+    color: #ddd;
+}
