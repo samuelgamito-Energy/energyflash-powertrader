@@ -193,3 +193,95 @@ body.dark .pt-futuros-wording {
     background-color: #1e2830;
     color: #ddd;
 }
+
+/* =========================================
+   VERSION MÓVIL (RESPONSIVE FIX)
+   ========================================= */
+@media screen and (max-width: 768px) {
+
+    /* 1. Tarjeta más compacta */
+    .pt-card {
+        padding: 20px;      /* Reducimos el relleno de 40px a 20px */
+        margin: 10px 0;     /* Quitamos márgenes laterales */
+        border-radius: 8px;
+        width: 100%;        /* Aseguramos que no se salga */
+        box-sizing: border-box; /* Para que el padding no sume al ancho */
+    }
+
+    /* 2. Cabecera apilada (Título arriba, icono abajo) */
+    .pt-header {
+        flex-direction: column; /* Cambiamos fila por columna */
+        text-align: center;
+        gap: 15px;
+        padding-bottom: 15px;
+    }
+
+    .pt-title {
+        font-size: 1.5rem; /* Título un poco más pequeño para que quepa */
+    }
+
+    .pt-subtitle {
+        display: block;
+        margin-top: 5px;
+    }
+
+    /* 3. Resumen Ejecutivo (Caja Amarilla) */
+    .pt-lead-box {
+        padding: 15px;
+        margin-bottom: 30px;
+        border-left-width: 4px; /* Borde más fino */
+    }
+
+    .pt-lead-text {
+        font-size: 1em; /* Texto normal, no gigante */
+        text-align: left;
+    }
+
+    /* 4. GRÁFICOS ELÁSTICOS (CRUCIAL) */
+    /* Esto obliga al SVG a encogerse y no salirse de la pantalla */
+    .pt-chart-box {
+        padding: 10px;
+        overflow: hidden; /* Corta si algo sobresale */
+    }
+    
+    .pt-chart-box svg {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100%;
+    }
+
+    /* 5. TABLAS CON SCROLL HORIZONTAL */
+    /* Permite deslizar el dedo si la tabla es muy ancha */
+    .pt-table-container {
+        display: block;
+        width: 100%;
+        overflow-x: auto; /* Scroll automático */
+        -webkit-overflow-scrolling: touch; /* Scroll suave en iPhone */
+        margin-bottom: 20px;
+    }
+    
+    .pt-table {
+        min-width: 500px; /* Fuerza un ancho mínimo para que no se deforme */
+    }
+
+    /* 6. Formulario de Suscripción vertical */
+    .pt-subscribe-box {
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    .pt-subscribe-form {
+        flex-direction: column; /* Input arriba, botón abajo */
+        gap: 15px;
+    }
+
+    .pt-subscribe-input {
+        width: 100%;
+        max-width: 100%; /* Que ocupe todo el ancho disponible */
+        box-sizing: border-box;
+    }
+
+    .pt-subscribe-btn {
+        width: 100%; /* Botón grande fácil de pulsar */
+    }
+}
