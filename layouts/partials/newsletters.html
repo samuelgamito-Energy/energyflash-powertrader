@@ -1,0 +1,54 @@
+<div class="pt-newsletter-box" style="margin: 2rem 0; padding: 1.5rem; background: var(--entry); border-radius: var(--radius); border: 1px solid var(--border);">
+    <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 1.2rem;">Recibe el informe diario a las 08:00</h3>
+    <p style="margin-top: 0; margin-bottom: 1rem; font-size: 0.9rem; color: var(--secondary);">Análisis de mercado, precios SPOT y mix de generación directo en tu bandeja.</p>
+    
+    <form id="pt-newsletter-form" action="https://script.google.com/macros/s/AKfycbwPxxHRlHcpS2iH97p58LGYK6Fn0l9UIroOD6ssh3-qrHYTV7nUvryJx_tTelRt98cR/exec" method="POST" style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+        <input type="email" name="email" id="pt-email" placeholder="tu@email.com" required 
+            style="flex: 1; min-width: 200px; padding: 0.5rem; border-radius: 4px; border: 1px solid var(--border); background: var(--theme); color: var(--primary);">
+        <button type="submit" 
+            style="padding: 0.5rem 1rem; border-radius: 4px; border: none; background: #004481; color: white; cursor: pointer; font-weight: bold;">
+            Suscribirse
+        </button>
+    </form>
+    <div id="pt-status" style="margin-top: 0.5rem; font-size: 0.85rem; display: none;"></div>
+</div>
+
+<script>
+document.getElementById('pt-newsletter-form').addEventListener('submit', function(e) {
+    e.preventDefault(); // Evita que el navegador cambie de página
+    
+    const form = e.target;
+    const statusDiv = document.getElementById('pt-status');
+    const submitBtn = form.querySelector('button');
+    const data = new FormData(form);
+
+    // Estado de carga
+    statusDiv.style.display = 'block';
+    statusDiv.style.color = 'var(--secondary)';
+    statusDiv.textContent = 'Procesando suscripción...';
+    submitBtn.disabled = true;
+
+    // Petición AJAX al Web App de Google
+    fetch(form.action, {
+        method: 'POST',
+        body: data
+    })
+    .then(response => response.text())
+    .then(text => {
+        if (text.includes("Exito")) {
+            statusDiv.style.color = 'green';
+            statusDiv.textContent = '✅ Suscrito correctamente al informe de las 08:00.';
+            form.reset();
+        } else {
+            throw new Error(text);
+        }
+    })
+    .catch(error => {
+        statusDiv.style.color = 'red';
+        statusDiv.textContent = '❌ Error de red. Inténtalo de nuevo.';
+    })
+    .finally(() => {
+        submitBtn.disabled = false;
+    });
+});
+</script>
