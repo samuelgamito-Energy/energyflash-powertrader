@@ -22,7 +22,7 @@ theme = "PaperMod"
 [[menu.main]]
     identifier = "universe"
     name = "⮌ Volver a PowerTrader"
-    url = "https://www.powertrader.es"
+    url = "https://powertrader.es"
     weight = 10
 
 [sitemap]
