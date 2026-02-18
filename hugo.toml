@@ -24,3 +24,8 @@ theme = "PaperMod"
     name = "⮌ Volver a PowerTrader"
     url = "https://www.powertrader.es"
     weight = 10
+
+[sitemap]
+  changefreq = "daily"
+  priority = 0.8
+  filename = "sitemap.xml"
