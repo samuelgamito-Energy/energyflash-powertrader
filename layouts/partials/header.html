@@ -1,25 +1,33 @@
-<header class="main-header">
-  <div class="nav-wrapper">
-    <div class="site-logo">
-      <a href="/">PowerTrader <strong>{{ .Site.Params.subname }}</strong></a>
-    </div>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="{{ "" | absLangURL }}" accesskey="h" title="Ir a Inicio">
+                PowerTrader <strong>{{ .Site.Params.subname | default "Vision" }}</strong>
+            </a>
+        </div>
+        
+        <ul id="menu">
+            <li><a href="/"><span>Inicio</span></a></li>
+            <li><a href="/posts/"><span>Artículos</span></a></li>
+            <li><a href="/sobre/"><span>Sobre</span></a></li>
+        </ul>
 
-    <nav class="nav-links">
-      <a href="/">Inicio</a>
-      <a href="/posts/">Artículos</a>
-      <a href="/sobre/">Sobre</a>
+        <div class="header-right">
+            <div class="social-links">
+                <a href="{{ .Site.Params.social.linkedin }}" target="_blank" title="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="{{ .Site.Params.social.x }}" target="_blank" title="X (Twitter)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733-16z"></path><path d="M4 20l6.768-6.768m2.464-2.464l6.768-6.768"></path></svg>
+                </a>
+            </div>
+            <button id="search-button">🔍</button>
+        </div>
     </nav>
 
-    <div class="social-icons">
-      <a href="{{ .Site.Params.linkedin }}" target="_blank">LinkedIn</a>
-      <a href="{{ .Site.Params.twitter }}" target="_blank">X</a>
-      <span class="search-trigger">🔍</span>
+    {{ if .IsHome }}
+    <div class="home-description">
+        <p>{{ .Site.Params.homeText }}</p>
     </div>
-  </div>
-
-  {{ if .IsHome }}
-  <div class="hero-text">
-    <p>{{ .Site.Params.homepage_text }}</p>
-  </div>
-  {{ end }}
+    {{ end }}
 </header>
