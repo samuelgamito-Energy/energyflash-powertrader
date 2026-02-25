@@ -1,98 +1,46 @@
 /* =========================================
-   1. AJUSTES DEL HEADER (ESTILO VISION)
-   ========================================= */
-.header {
-    background: var(--theme); /* Usa el fondo nativo de PaperMod */
-    border-bottom: 1px solid var(--border);
-}
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo strong {
-    color: #00d1b2; /* Color distintivo para el subnombre */
-    margin-left: 5px;
-}
-
-#menu {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 20px;
-}
-
-#menu svg {
-    vertical-align: middle;
-    transition: transform 0.2s;
-}
-
-#menu svg:hover {
-    transform: scale(1.1);
-    color: #00d1b2;
-}
-
-.header-description {
-    text-align: center;
-    padding: 40px 20px;
-    background: var(--code-bg);
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 30px;
-}
-
-.header-description p {
-    max-width: 800px;
-    margin: 0 auto;
-    color: var(--secondary);
-    font-size: 1.1rem;
-    line-height: 1.6;
-}
-
-/* =========================================
    2. ESTILOS INFORME DIARIO (CONTENIDO)
    ========================================= */
+
+/* La tarjeta ahora usa el fondo oscuro nativo del tema */
 .pt-card {
-    background-color: #ffffff;
-    max-width: 100%; 
-    margin: 20px auto;
+    background-color: var(--entry); 
     padding: 40px;
     border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-    border: 1px solid #eee;
+    border: 1px solid var(--border);
+    margin: 20px auto;
+    color: var(--primary);
 }
 
 .pt-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 4px solid #004481;
+    border-bottom: 4px solid #00d1b2; /* Color corporativo en lugar del azul antiguo */
     padding-bottom: 20px;
     margin-bottom: 30px;
 }
 
 .pt-title {
     margin: 0;
-    color: #1a1a1a;
+    color: var(--primary); /* Texto dinámico */
     font-size: 1.8rem;
     font-weight: 800;
 }
 
+/* La caja amarilla de resumen */
 .pt-lead-box {
-    background-color: #fffcf0;
+    background-color: var(--code-bg); /* Un gris un poco más oscuro para contrastar */
     border-left: 6px solid #F2A900;
     padding: 25px;
     margin-bottom: 40px;
     border-radius: 0 8px 8px 0;
+    color: var(--secondary); /* Texto legible */
 }
 
 /* =========================================
-   3. TABLAS Y GRÁFICOS
+   3. TABLAS 
    ========================================= */
 .pt-table-container {
     overflow-x: auto;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .pt-table {
@@ -102,45 +50,24 @@
 }
 
 .pt-table th {
-    background-color: #222;
-    color: #fff;
+    background-color: var(--theme);
+    color: var(--primary);
     padding: 12px;
+    border: 1px solid var(--border);
 }
 
 .pt-table td {
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--border);
     text-align: center;
-}
-
-/* =========================================
-   4. ADAPTACIÓN MODO OSCURO (PAPERMOD)
-   ========================================= */
-body.dark .pt-card {
-    background-color: var(--entry);
-    border-color: var(--border);
-    box-shadow: none;
-}
-
-body.dark .pt-title { color: var(--primary); }
-
-body.dark .pt-lead-box {
-    background-color: var(--code-bg);
-    border-left-color: #F2A900;
-}
-
-body.dark .pt-table th { background-color: #000; }
-body.dark .pt-table td {
     background-color: var(--entry);
     color: var(--secondary);
-    border-color: var(--border);
 }
 
 /* =========================================
-   5. RESPONSIVE MÓVIL
+   4. RESPONSIVE MÓVIL
    ========================================= */
 @media screen and (max-width: 768px) {
     .pt-card { padding: 15px; }
     .pt-header { flex-direction: column; text-align: center; }
-    .nav { flex-direction: column; gap: 15px; }
 }
