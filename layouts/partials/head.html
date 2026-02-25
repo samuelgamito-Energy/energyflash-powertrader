@@ -1,12 +1,25 @@
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-
+    
     {{ if or (eq .Kind "taxonomy") (eq .Kind "term") }}
         <meta name="robots" content="noindex, follow">
     {{ end }}
 
-    <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary | default .Site.Params.description }}{{ end }}">
+    {{ $style := resources.Get "css/extended/powertrader.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
     
-    </head>
+    <style>
+        :root { --nav-bg: #121212; --nav-text: #ffffff; --accent: #00d1b2; }
+        .vision-header { background: var(--nav-bg); color: var(--nav-text); padding: 15px 0; }
+        .nav-container { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        .nav-links { display: flex; gap: 25px; list-style: none; }
+        .nav-links a { color: #ccc; text-decoration: none; font-size: 0.95rem; transition: 0.3s; }
+        .nav-links a:hover { color: white; }
+        .social-box { display: flex; gap: 15px; align-items: center; }
+        .social-box svg { fill: white; width: 20px; transition: 0.3s; }
+        .social-box a:hover svg { fill: var(--accent); }
+        .pt-vision-logo { font-size: 1.3rem; font-weight: 700; color: white; text-decoration: none; }
+        .pt-vision-logo span { color: var(--accent); }
+    </style>
+</head>
