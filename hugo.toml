@@ -11,9 +11,15 @@ theme = "PaperMod"
     disableThemeToggle = false
     defaultTheme = "dark"
     ShowPostNavLinks = true
+    subname = "EnergyFlash" # Cambia esto por "Ahorro", "Solar", etc.
+    description = "Análisis diario de precios de energía"
+    homeText = "Bienvenido a EnergyFlash. Aquí encontrarás el análisis diario del pool eléctrico, precios OMIE y tendencias del mercado mayorista."
 
     [params.assets]
         disableHLJS = true # Excelente para mantener la web ligera
+    [params.social]
+    linkedin = "https://linkedin.com/in/tu-usuario"
+    x = "https://x.com/tu-usuario"
 
 # --- BLOQUE DE SEGURIDAD PARA VER LAS TABLAS HTML ---
 [markup]
