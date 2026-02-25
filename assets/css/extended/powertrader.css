@@ -1,6 +1,58 @@
-/* --- ESTILOS INFORME DIARIO (PowerTrader) --- */
+/* =========================================
+   1. AJUSTES DEL HEADER (ESTILO VISION)
+   ========================================= */
+.header {
+    background: var(--theme); /* Usa el fondo nativo de PaperMod */
+    border-bottom: 1px solid var(--border);
+}
 
-/* 1. CONTENEDOR PRINCIPAL (LA TARJETA) */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo strong {
+    color: #00d1b2; /* Color distintivo para el subnombre */
+    margin-left: 5px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+#menu svg {
+    vertical-align: middle;
+    transition: transform 0.2s;
+}
+
+#menu svg:hover {
+    transform: scale(1.1);
+    color: #00d1b2;
+}
+
+.header-description {
+    text-align: center;
+    padding: 40px 20px;
+    background: var(--code-bg);
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 30px;
+}
+
+.header-description p {
+    max-width: 800px;
+    margin: 0 auto;
+    color: var(--secondary);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* =========================================
+   2. ESTILOS INFORME DIARIO (CONTENIDO)
+   ========================================= */
 .pt-card {
     background-color: #ffffff;
     max-width: 100%; 
@@ -11,7 +63,6 @@
     border: 1px solid #eee;
 }
 
-/* 2. CABECERA */
 .pt-header {
     display: flex;
     justify-content: space-between;
@@ -25,19 +76,9 @@
     margin: 0;
     color: #1a1a1a;
     font-size: 1.8rem;
-    line-height: 1.2;
     font-weight: 800;
 }
 
-.pt-subtitle {
-    font-size: 0.9rem;
-    color: #666;
-    font-weight: 400;
-    display: block;
-    margin-top: 5px;
-}
-
-/* 3. CAJA RESUMEN (AMARILLA) */
 .pt-lead-box {
     background-color: #fffcf0;
     border-left: 6px solid #F2A900;
@@ -46,89 +87,23 @@
     border-radius: 0 8px 8px 0;
 }
 
-.pt-lead-title {
-    color: #d35400;
-    display: block;
-    margin-bottom: 10px;
-    font-size: 0.85em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: bold;
-}
-
-.pt-lead-text {
-    font-size: 1.1em;
-    line-height: 1.6;
-    color: #2c3e50;
-}
-
-/* 4. TÍTULOS DE SECCIÓN */
-.pt-section-title {
-    border-bottom: 2px solid #e0e0e0;
-    padding-bottom: 8px;
-    margin-top: 45px;
-    margin-bottom: 20px;
-    font-size: 1.5em;
-    font-weight: 700;
-}
-
-/* Colores de Sección */
-.pt-color-elec { color: #004481; }
-.pt-color-gas { color: #e67e22; }
-.pt-color-global { color: #27ae60; }
-.pt-color-retail { color: #8e44ad; }
-.pt-color-fut { color: #2980b9; }
-.pt-color-boe { color: #34495e; }
-
-/* 5. CONTENIDO GENERAL */
-.pt-text-block {
-    line-height: 1.8;
-    color: #444;
-    margin-bottom: 25px;
-    text-align: justify;
-    font-size: 1.05em;
-}
-
-.pt-chart-box {
-    border: 1px solid #e0e0e0;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 30px;
-    text-align: center;
-    background: #fff;
-}
-
-/* Wording Futuros */
-.pt-futuros-wording {
-    font-size: 1em;
-    color: #2c3e50;
-    margin-top: 15px;
-    padding: 15px;
-    background-color: #eaf2f8;
-    border-left: 4px solid #2980b9;
-    border-radius: 4px;
-    font-style: italic;
-}
-
-/* 6. TABLAS */
+/* =========================================
+   3. TABLAS Y GRÁFICOS
+   ========================================= */
 .pt-table-container {
     overflow-x: auto;
     margin-bottom: 15px;
-    border-radius: 6px;
 }
 
 .pt-table {
     border-collapse: collapse;
     width: 100%;
     font-size: 0.9em;
-    min-width: 600px;
 }
 
 .pt-table th {
-    background-color: #222222;
-    color: #ffffff;
-    font-weight: 700;
-    text-align: center;
+    background-color: #222;
+    color: #fff;
     padding: 12px;
 }
 
@@ -136,166 +111,36 @@
     padding: 10px;
     border: 1px solid #ddd;
     text-align: center;
-    color: #333;
-    background-color: #fff;
 }
-
-.pt-table tr:nth-child(even) td {
-    background-color: #f8f9fa;
-}
-
-/* 7. CAJA DE SUSCRIPCIÓN (¡AÑADIDA!) */
-.pt-subscribe-box {
-    background-color: #f0f7ff;
-    border: 2px solid #004481;
-    border-radius: 8px;
-    padding: 30px;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
-.pt-subscribe-title {
-    color: #004481;
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 1.4em;
-    font-weight: 700;
-}
-
-.pt-subscribe-text {
-    color: #555;
-    margin-bottom: 20px;
-    font-size: 1em;
-}
-
-.pt-subscribe-form {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-.pt-subscribe-input {
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    flex: 1;
-    max-width: 300px;
-    font-size: 1em;
-}
-
-.pt-subscribe-btn {
-    background-color: #004481;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 4px;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 1em;
-    transition: background 0.3s;
-}
-.pt-subscribe-btn:hover { background-color: #003366; }
-
-
-/* 8. FOOTER */
-.pt-footer {
-    margin-top: 60px;
-    padding-top: 20px;
-    border-top: 1px solid #eee;
-    font-size: 0.8em;
-    color: #888;
-    text-align: center;
-}
-
-/* --- ADAPTACIÓN MODO OSCURO (PAPERMOD) --- */
-body.dark .pt-card {
-    background-color: #1d1e20;
-    border-color: #333;
-    box-shadow: none;
-}
-body.dark .pt-title { color: #e0e0e0; }
-body.dark .pt-subtitle { color: #aaa; }
-body.dark .pt-lead-box {
-    background-color: #2e2e33;
-    border-left-color: #F2A900;
-}
-body.dark .pt-lead-text, body.dark .pt-text-block { color: #dcdcdc; }
-body.dark .pt-chart-box {
-    background-color: #2e2e33;
-    border-color: #444;
-}
-/* Inversión de colores SVG en modo oscuro */
-body.dark .pt-chart-box svg text { fill: #ccc !important; }
-body.dark .pt-chart-box svg line[stroke="#eee"] { stroke: #444 !important; }
-
-body.dark .pt-table th { background-color: #111; }
-body.dark .pt-table td {
-    background-color: #2e2e33;
-    color: #eee;
-    border-color: #444;
-}
-body.dark .pt-table tr:nth-child(even) td { background-color: #36363b; }
-body.dark .pt-futuros-wording {
-    background-color: #1e2830;
-    color: #ddd;
-}
-/* Suscripción en modo oscuro */
-body.dark .pt-subscribe-box {
-    background-color: #1e2830;
-    border-color: #4da6ff;
-}
-body.dark .pt-subscribe-title { color: #4da6ff; }
-body.dark .pt-subscribe-text { color: #ddd; }
-body.dark .pt-subscribe-input {
-    background-color: #2e2e33;
-    border-color: #555;
-    color: white;
-}
-
 
 /* =========================================
-   VERSION MÓVIL (RESPONSIVE FIX)
+   4. ADAPTACIÓN MODO OSCURO (PAPERMOD)
+   ========================================= */
+body.dark .pt-card {
+    background-color: var(--entry);
+    border-color: var(--border);
+    box-shadow: none;
+}
+
+body.dark .pt-title { color: var(--primary); }
+
+body.dark .pt-lead-box {
+    background-color: var(--code-bg);
+    border-left-color: #F2A900;
+}
+
+body.dark .pt-table th { background-color: #000; }
+body.dark .pt-table td {
+    background-color: var(--entry);
+    color: var(--secondary);
+    border-color: var(--border);
+}
+
+/* =========================================
+   5. RESPONSIVE MÓVIL
    ========================================= */
 @media screen and (max-width: 768px) {
-
-    .pt-card {
-        padding: 15px;      /* Menos relleno */
-        margin: 10px 0;
-        border-radius: 8px;
-        width: 100%;
-        box-sizing: border-box; /* Vital para que no se salga */
-    }
-
-    .pt-header {
-        flex-direction: column;
-        text-align: center;
-        gap: 10px;
-    }
-
-    .pt-title { font-size: 1.4rem; }
-
-    /* Los gráficos se encogen para caber */
-    .pt-chart-box {
-        padding: 5px;
-        overflow: hidden;
-    }
-    .pt-chart-box svg {
-        width: 100% !important;
-        height: auto !important;
-    }
-
-    /* Tablas con scroll horizontal */
-    .pt-table-container {
-        display: block;
-        width: 100%;
-        overflow-x: auto;
-    }
-
-    /* Formulario de suscripción vertical */
-    .pt-subscribe-box { padding: 20px; }
-    .pt-subscribe-form { flex-direction: column; }
-    .pt-subscribe-input { width: 100%; max-width: 100%; }
-    .pt-subscribe-btn { width: 100%; }
+    .pt-card { padding: 15px; }
+    .pt-header { flex-direction: column; text-align: center; }
+    .nav { flex-direction: column; gap: 15px; }
 }
