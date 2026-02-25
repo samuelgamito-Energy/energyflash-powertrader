@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /tags/
+Disallow: /categories/
+Allow: /posts/
+Allow: /
+
+Sitemap: https://tu-subdominio.powertrader.es/sitemap.xml
