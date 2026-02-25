@@ -1,0 +1,25 @@
+<header class="main-header">
+  <div class="nav-wrapper">
+    <div class="site-logo">
+      <a href="/">PowerTrader <strong>{{ .Site.Params.subname }}</strong></a>
+    </div>
+
+    <nav class="nav-links">
+      <a href="/">Inicio</a>
+      <a href="/posts/">Artículos</a>
+      <a href="/sobre/">Sobre</a>
+    </nav>
+
+    <div class="social-icons">
+      <a href="{{ .Site.Params.linkedin }}" target="_blank">LinkedIn</a>
+      <a href="{{ .Site.Params.twitter }}" target="_blank">X</a>
+      <span class="search-trigger">🔍</span>
+    </div>
+  </div>
+
+  {{ if .IsHome }}
+  <div class="hero-text">
+    <p>{{ .Site.Params.homepage_text }}</p>
+  </div>
+  {{ end }}
+</header>
