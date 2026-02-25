@@ -1,32 +1,28 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="/" accesskey="h" title="Ir a Inicio">
+            <a href="/" accesskey="h">
                 PowerTrader <strong>{{ .Site.Params.subname | default "Vision" }}</strong>
             </a>
         </div>
-
         <ul id="menu">
-            <li><a href="/"><span>Inicio</span></a></li>
-            <li><a href="/posts/"><span>Artículos</span></a></li>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/posts/">Artículos</a></li>
             <li>
-                <a href="{{ .Site.Params.social.linkedin }}" target="_blank" title="LinkedIn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                <a href="{{ .Site.Params.social.linkedin }}" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
                 </a>
             </li>
             <li>
-                <a href="{{ .Site.Params.social.x }}" target="_blank" title="X">
+                <a href="{{ .Site.Params.social.x }}" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733-16z"></path><path d="M4 20l6.768-6.768m2.464-2.464l6.768-6.768"></path></svg>
                 </a>
             </li>
         </ul>
     </nav>
-
     {{ if .IsHome }}
-    <div class="header-description" style="text-align: center; padding: 40px 20px; background: var(--theme); border-bottom: 1px solid var(--border);">
-        <p style="margin: 0 auto; max-width: 700px; color: var(--secondary); font-size: 1.1rem;">
-            {{ .Site.Params.homeText }}
-        </p>
+    <div class="header-description">
+        <p>{{ .Site.Params.homeText }}</p>
     </div>
     {{ end }}
 </header>
