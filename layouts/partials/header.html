@@ -1,33 +1,29 @@
-<header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="{{ "" | absLangURL }}" accesskey="h" title="Ir a Inicio">
-                PowerTrader <strong>{{ .Site.Params.subname | default "Vision" }}</strong>
-            </a>
-        </div>
+<header class="vision-header">
+    <div class="nav-container">
+        <a href="/" class="pt-vision-logo">PowerTrader <span>{{ .Site.Params.subname | default "Vision" }}</span></a>
         
-        <ul id="menu">
-            <li><a href="/"><span>Inicio</span></a></li>
-            <li><a href="/posts/"><span>Artículos</span></a></li>
-            <li><a href="/sobre/"><span>Sobre</span></a></li>
+        <ul class="nav-links">
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/posts/">Artículos</a></li>
+            <li><a href="/sobre/">Sobre</a></li>
         </ul>
 
-        <div class="header-right">
-            <div class="social-links">
-                <a href="{{ .Site.Params.social.linkedin }}" target="_blank" title="LinkedIn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                </a>
-                <a href="{{ .Site.Params.social.x }}" target="_blank" title="X (Twitter)">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733-16z"></path><path d="M4 20l6.768-6.768m2.464-2.464l6.768-6.768"></path></svg>
-                </a>
-            </div>
-            <button id="search-button">🔍</button>
+        <div class="social-box">
+            <a href="{{ .Site.Params.social.linkedin }}" target="_blank">
+                <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="{{ .Site.Params.social.x }}" target="_blank">
+                <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <span style="cursor:pointer">🔍</span>
         </div>
-    </nav>
-
-    {{ if .IsHome }}
-    <div class="home-description">
-        <p>{{ .Site.Params.homeText }}</p>
     </div>
-    {{ end }}
 </header>
+
+{{ if .IsHome }}
+<div style="background:#1a1a1a; color:#aaa; text-align:center; padding:40px 20px; border-bottom:1px solid #333;">
+    <p style="max-width:800px; margin:0 auto; font-size:1.1rem; line-height:1.6;">
+        {{ .Site.Params.homeText }}
+    </p>
+</div>
+{{ end }}
