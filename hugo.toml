@@ -8,6 +8,8 @@ theme = "PaperMod"
     title = "PowerTrader EnergyFlash"
     description = "Inteligencia diaria de mercados"
     author = "PowerTrader"
+    disableThemeToggle = false
+    defaultTheme = "dark"
     ShowPostNavLinks = true
 
     [params.assets]
