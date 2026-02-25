@@ -1,11 +1,11 @@
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-  
+
   {{ if or .IsTaxonomy .IsSection }}
     <meta name="robots" content="noindex, follow">
   {{ end }}
 
   <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}">
-  
-  <link rel="stylesheet" href="/css/main.css"> </head>
+</head></head>
