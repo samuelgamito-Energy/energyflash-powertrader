@@ -19,8 +19,8 @@ theme = "PaperMod"
         disableHLJS = true 
 
     [params.social]
-        linkedin = "https://linkedin.com/in/tu-usuario"
-        x = "https://x.com/tu-usuario"
+        linkedin = "https://linkedin.com/company/power-trader"
+        x = "https://x.com/PowerSPTrader"
 
 # --- BLOQUE DE SEGURIDAD PARA VER LAS TABLAS HTML ---
 [markup]
