@@ -18,9 +18,12 @@ theme = "PaperMod"
     [params.assets]
         disableHLJS = true 
 
-    [params.social]
-        linkedin = "https://linkedin.com/company/power-trader"
-        x = "https://x.com/PowerSPTrader"
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://linkedin.com/company/power-trader"
+    [[params.socialIcons]]
+        name = "x"
+        url = "https://x.com/PowerSPTrader"
 
 # --- BLOQUE DE SEGURIDAD PARA VER LAS TABLAS HTML ---
 [markup]
@@ -31,9 +34,9 @@ theme = "PaperMod"
 # Menú de navegación
 [[menu.main]]
     identifier = "universe"
-    name = "⮌ Volver a PowerTrader"
+    name = "↩ Volver a PowerTrader"
     url = "https://powertrader.es"
-    weight = 10
+    weight = 1
 
 [sitemap]
   changefreq = "daily"
