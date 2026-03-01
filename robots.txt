@@ -4,4 +4,4 @@ Disallow: /categories/
 Allow: /posts/
 Allow: /
 
-Sitemap: https://tu-subdominio.powertrader.es/sitemap.xml
+Sitemap: https://energyflash.powertrader.es/sitemap.xml
