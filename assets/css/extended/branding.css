@@ -1,21 +1,18 @@
 
+:root,
+html[data-theme="dark"],
+[data-theme="dark"],
+body.dark,
 .dark {
-    --theme: #0F172A; /* Fondo corporativo PowerTrader */
-    --entry: #1E293B; /* Fondo de tarjetas */
-    --primary: #F8FAFC; /* Texto principal */
-    --secondary: #94A3B8; /* Texto secundario */
-    --tertiary: #475569; /* Elementos terciarios */
-    --content: #CBD5E1; /* Texto de contenido */
-    --code-block-bg: #1E293B; /* Fondo de bloque de código */
-    --code-bg: #1E293B; /* Fondo de código inline */
-    --border: #334155; /* Bordes */
-}
-
-/* En caso de que se use el modo light, también aplicamos unos colores base */
-:root {
-    --theme: #0F172A;
-    --entry: #1E293B;
-    --primary: #F8FAFC;
+    --theme: #0F172A !important; /* Fondo corporativo PowerTrader */
+    --entry: #1E293B !important; /* Fondo de tarjetas */
+    --primary: #F8FAFC !important; /* Texto principal */
+    --secondary: #94A3B8 !important; /* Texto secundario */
+    --tertiary: #475569 !important; /* Elementos terciarios */
+    --content: #CBD5E1 !important; /* Texto de contenido */
+    --code-block-bg: #1E293B !important; /* Fondo de bloque de código */
+    --code-bg: #1E293B !important; /* Fondo de código inline */
+    --border: #334155 !important; /* Bordes */
 }
 
 body {
