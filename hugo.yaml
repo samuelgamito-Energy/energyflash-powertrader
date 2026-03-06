@@ -19,7 +19,6 @@ params:
   defaultTheme: "dark"
   ShowPostNavLinks: true
   subname: "EnergyFlash"
-  homeText: "Bienvenido a EnergyFlash. Aquí encontrarás el análisis diario del pool eléctrico, precios OMIE y tendencias del mercado mayorista."
   assets:
     favicon: /favicon.svg
     disableHLJS: true
@@ -29,7 +28,7 @@ params:
     - name: "x"
       url: "https://x.com/PowerSPTrader"
 
-  markup:
+markup:
   goldmark:
     renderer:
       unsafe: true
