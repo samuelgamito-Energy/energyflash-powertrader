@@ -1,0 +1,1 @@
+﻿:root { --theme: #0F172A; --entry: #1E293B; --primary: #F8FAFC; --secondary: #94A3B8; --tertiary: #475569; --content: #CBD5E1; --hljs-bg: #1E293B; --code-bg: #1E293B; --border: #334155; } body { background-color: var(--theme); color: var(--primary); }
