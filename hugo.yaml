@@ -6,7 +6,7 @@ theme: "PaperMod"
 params:
   label:
     icon: /logo.svg
-    iconHeight: 32
+    iconHeight: 80
   env: "production"
   title: "PowerTrader EnergyFlash"
   description: "Inteligencia diaria de mercados y análisis de precios de energía"
@@ -17,6 +17,7 @@ params:
   subname: "EnergyFlash"
   homeText: "Bienvenido a EnergyFlash. Aquí encontrarás el análisis diario del pool eléctrico, precios OMIE y tendencias del mercado mayorista."
   assets:
+    favicon: /favicon.svg
     disableHLJS: true
   socialIcons:
     - name: "linkedin"
