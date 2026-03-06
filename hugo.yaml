@@ -4,6 +4,9 @@ title: "PowerTrader EnergyFlash"
 theme: "PaperMod"
 
 params:
+  label:
+    icon: /logo.svg
+    iconHeight: 32
   env: "production"
   title: "PowerTrader EnergyFlash"
   description: "Inteligencia diaria de mercados y análisis de precios de energía"
