@@ -1,0 +1,39 @@
+baseURL: "https://energyflash.powertrader.es/"
+languageCode: "es-es"
+title: "PowerTrader EnergyFlash"
+theme: "PaperMod"
+
+params:
+  env: "production"
+  title: "PowerTrader EnergyFlash"
+  description: "Inteligencia diaria de mercados y análisis de precios de energía"
+  author: "PowerTrader"
+  disableThemeToggle: false
+  defaultTheme: "dark"
+  ShowPostNavLinks: true
+  subname: "EnergyFlash"
+  homeText: "Bienvenido a EnergyFlash. Aquí encontrarás el análisis diario del pool eléctrico, precios OMIE y tendencias del mercado mayorista."
+  assets:
+    disableHLJS: true
+  socialIcons:
+    - name: "linkedin"
+      url: "https://linkedin.com/company/power-trader"
+    - name: "x"
+      url: "https://x.com/PowerSPTrader"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - identifier: "universe"
+      name: "↩ Volver a PowerTrader"
+      url: "https://powertrader.es"
+      weight: 1
+
+sitemap:
+  changefreq: "daily"
+  priority: 0.8
+  filename: "sitemap.xml"

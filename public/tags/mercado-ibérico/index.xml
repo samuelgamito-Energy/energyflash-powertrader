@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mercado Ibérico on PowerTrader EnergyFlash</title>
+    <link>https://energyflash.powertrader.es/tags/mercado-ib%C3%A9rico/</link>
+    <description>Recent content in Mercado Ibérico on PowerTrader EnergyFlash</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 18 Feb 2026 08:00:00 +0100</lastBuildDate>
+    <atom:link href="https://energyflash.powertrader.es/tags/mercado-ib%C3%A9rico/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eólica lastra el pool ibérico: luz repunta 220% hasta 18,24€/MWh</title>
+      <link>https://energyflash.powertrader.es/posts/informe-2026-02-18/</link>
+      <pubDate>Wed, 18 Feb 2026 08:00:00 +0100</pubDate>
+      <guid>https://energyflash.powertrader.es/posts/informe-2026-02-18/</guid>
+      <description>El precio de la luz se dispara un 220% en el mercado mayorista ibérico, alcanzando los 18,24 €/MWh. La fuerte caída de la generación eólica impulsa este aumento, contrarrestando la presión bajista de la solar fotovoltaica. El repunte de la hidráulica no logra compensar el impacto de la menor aportación eólica en el precio OMIE. El precio del gas en MIBGAS se sitúa en 29,29 €/MWh.</description>
+    </item>
+  </channel>
+</rss>

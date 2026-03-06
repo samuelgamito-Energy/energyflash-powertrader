@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Energía Nuclear on PowerTrader EnergyFlash</title>
+    <link>https://energyflash.powertrader.es/tags/energ%C3%ADa-nuclear/</link>
+    <description>Recent content in Energía Nuclear on PowerTrader EnergyFlash</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>es-es</language>
+    <lastBuildDate>Tue, 17 Feb 2026 08:00:00 +0100</lastBuildDate>
+    <atom:link href="https://energyflash.powertrader.es/tags/energ%C3%ADa-nuclear/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OMIE: Desplome eólico impulsa precio luz; nuclear estabiliza</title>
+      <link>https://energyflash.powertrader.es/posts/informe-2026-02-17/</link>
+      <pubDate>Tue, 17 Feb 2026 08:00:00 +0100</pubDate>
+      <guid>https://energyflash.powertrader.es/posts/informe-2026-02-17/</guid>
+      <description>El precio de la luz se dispara hoy en el mercado mayorista: el precio OMIE se quintuplica por el desplome de la generación eólica. El gas, estable en MIBGAS, no influye en el alza. La nuclear actuó como factor de estabilidad ante la volatilidad renovable.</description>
+    </item>
+  </channel>
+</rss>

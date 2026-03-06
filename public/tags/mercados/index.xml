@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mercados on PowerTrader EnergyFlash</title>
+    <link>https://energyflash.powertrader.es/tags/mercados/</link>
+    <description>Recent content in Mercados on PowerTrader EnergyFlash</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>es-es</language>
+    <lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://energyflash.powertrader.es/tags/mercados/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Informe Energía: 12/2/2026</title>
+      <link>https://energyflash.powertrader.es/posts/informe-2026-02-12/</link>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://energyflash.powertrader.es/posts/informe-2026-02-12/</guid>
+      <description>El precio OMIE en el mercado mayorista eléctrico desciende hasta los 4,42 €/MWh, impulsado por un aumento significativo en la producción solar fotovoltaica, cuyo perfil M+1 escala hasta los 20,57 €/MWh. Este incremento de la generación renovable compensa la ligera subida del TTF y una demanda que, si bien es inferior a la de la semana pasada, no impacta de forma determinante en el pool eléctrico gracias al mix de generación.</description>
+    </item>
+  </channel>
+</rss>

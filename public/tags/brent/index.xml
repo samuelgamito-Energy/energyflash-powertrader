@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Brent on PowerTrader EnergyFlash</title>
+    <link>https://energyflash.powertrader.es/tags/brent/</link>
+    <description>Recent content in Brent on PowerTrader EnergyFlash</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>es-es</language>
+    <lastBuildDate>Thu, 19 Feb 2026 08:00:00 +0100</lastBuildDate>
+    <atom:link href="https://energyflash.powertrader.es/tags/brent/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Precio Luz Repunta: Eólica Lastra, Brent Presiona (€14.87/MWh)</title>
+      <link>https://energyflash.powertrader.es/posts/informe-2026-02-19/</link>
+      <pubDate>Thu, 19 Feb 2026 08:00:00 +0100</pubDate>
+      <guid>https://energyflash.powertrader.es/posts/informe-2026-02-19/</guid>
+      <description>El precio de la luz hoy se dispara en el mercado mayorista, con un aumento del 236,43% hasta los 14,87 €/MWh, debido a la fuerte caída de la generación eólica. La solar fotovoltaica, pese a cubrir el 17,39% del mix, no logra compensar la subida. El Brent supera los 71 dólares ante temores geopolíticos.</description>
+    </item>
+  </channel>
+</rss>
