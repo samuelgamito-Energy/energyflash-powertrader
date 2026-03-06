@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120">
+  <defs>
+    <style>
+      .bg { fill: #0F172A; }
+      .text-main { fill: #FFFFFF; font-family: 'Segoe UI', sans-serif; font-weight: 800; }
+      .text-accent { fill: #22d3ee; font-family: 'Segoe UI', sans-serif; font-weight: 300; }
+    </style>
+  </defs>
+  <rect width="500" height="120" class="bg" rx="10"/>
+  <g transform="translate(30, 30)">
+    <path d="M0 30 C15 60 30 0 45 45 L55 25 L65 70 L80 10" fill="none" stroke="#22d3ee" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="80" cy="10" r="4" fill="#FFFFFF"/>
+  </g>
+  <text x="140" y="75" font-size="45" class="text-main">ENERGY<tspan class="text-accent">FLASH</tspan></text>
+</svg>
