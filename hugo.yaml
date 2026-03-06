@@ -5,12 +5,16 @@ theme: "PaperMod"
 
 params:
   label:
+    text: " "
     icon: /logo.svg
     iconHeight: 80
   env: "production"
   title: "PowerTrader EnergyFlash"
   description: "Inteligencia diaria de mercados y análisis de precios de energía"
   author: "PowerTrader"
+  ShowToc: true
+  ShowBreadCrumbs: true
+  Canonical: true
   disableThemeToggle: false
   defaultTheme: "dark"
   ShowPostNavLinks: true
