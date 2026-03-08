@@ -1,0 +1,54 @@
+<div class="ef-table-wrapper">
+    <table class="ef-table">
+        <thead>
+            {{ .Inner }}
+        </thead>
+    </table>
+</div>
+
+<style>
+    .ef-table-wrapper {
+        overflow-x: auto;
+        margin: 2rem 0;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        background: var(--entry);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .ef-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.95rem;
+        text-align: left;
+    }
+
+    .ef-table th {
+        background: var(--code-bg);
+        color: var(--primary);
+        padding: 1rem;
+        font-weight: 700;
+        border-bottom: 2px solid var(--border);
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.05em;
+    }
+
+    .ef-table td {
+        padding: 1rem;
+        border-bottom: 1px solid var(--border);
+        color: var(--secondary);
+    }
+
+    .ef-table tr:hover {
+        background: rgba(0, 0, 0, 0.02);
+    }
+
+    .dark .ef-table tr:hover {
+        background: rgba(255, 255, 255, 0.02);
+    }
+
+    .ef-table tr:last-child td {
+        border-bottom: none;
+    }
+</style>

@@ -1,0 +1,97 @@
+<div class="ef-box {{ .Get `type` }}">
+    <div class="ef-box-header">
+        <span class="ef-box-icon">{{ if eq (.Get `type`) `regulation` }}⚖️{{ else if eq (.Get `type`) `retail` }}🏢{{
+            else if eq (.Get `type`) `market` }}📊{{ else if eq (.Get `type`) `futures` }}📅{{ else }}💡{{ end }}</span>
+        <span class="ef-box-title">{{ .Get "title" }}</span>
+    </div>
+    <div class="ef-box-content">
+        {{ .Inner | markdownify }}
+    </div>
+</div>
+
+<style>
+    .ef-box {
+        margin: 2rem 0;
+        padding: 1.5rem;
+        border-radius: 12px;
+        border-left: 6px solid #ccc;
+        background: var(--entry);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .ef-box.regulation {
+        border-color: #34495e;
+        background: #f4f6f7;
+    }
+
+    .ef-box.retail {
+        border-color: #8e44ad;
+        background: #fcfbfd;
+    }
+
+    .ef-box.market {
+        border-color: #27ae60;
+        background: #fafffa;
+    }
+
+    .ef-box.futures {
+        border-color: #2980b9;
+        background: #f0f7ff;
+    }
+
+    /* Dark mode overrides */
+    .dark .ef-box.regulation {
+        background: #2c3e5066;
+        border-color: #34495e;
+    }
+
+    .dark .ef-box.retail {
+        background: #4b008244;
+        border-color: #8e44ad;
+    }
+
+    .dark .ef-box.market {
+        background: #00640044;
+        border-color: #27ae60;
+    }
+
+    .dark .ef-box.futures {
+        background: #00008b44;
+        border-color: #2980b9;
+    }
+
+    .ef-box-header {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        padding-bottom: 0.75rem;
+    }
+
+    .ef-box-icon {
+        font-size: 1.25rem;
+    }
+
+    .ef-box-title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: var(--primary);
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+    }
+
+    .ef-box-content {
+        line-height: 1.7;
+        color: var(--secondary);
+        font-size: 1.05rem;
+    }
+
+    .ef-box-content p {
+        margin-bottom: 1rem;
+    }
+
+    .ef-box-content p:last-child {
+        margin-bottom: 0;
+    }
+</style>

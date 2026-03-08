@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .rect-main { fill: #00AEEF; }
+    </style>
+  </defs>
+  <rect width="64" height="64" fill="#0F172A" rx="16"/>
+
+  <!-- Icon: Digital Wave Centered & Scaled -->
+  <!-- Target Center: 32, 32. -->
+  <!-- Icon Local Center: x=12, y=10 -->
+  <!-- Scale 0.75 -->
+  <!-- Tx = 32 - (12 * 0.75) = 23 -->
+  <!-- Ty = 32 - (10 * 0.75) = 24.5 -->
+  <g transform="translate(23, 24.5) scale(0.75)">
+    <rect x="-20" y="5" width="4" height="10" class="rect-main" opacity="0.4"/>
+    <rect x="-10" y="0" width="4" height="20" class="rect-main" opacity="0.6"/>
+    <rect x="0" y="-10" width="4" height="40" class="rect-main" opacity="0.8"/>
+    <rect x="10" y="-20" width="4" height="60" class="rect-main"/>
+    <rect x="20" y="-10" width="4" height="40" class="rect-main" opacity="0.8"/>
+    <rect x="30" y="0" width="4" height="20" class="rect-main" opacity="0.6"/>
+    <rect x="40" y="5" width="4" height="10" class="rect-main" opacity="0.4"/>
+  </g>
+</svg>

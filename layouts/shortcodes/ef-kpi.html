@@ -1,0 +1,80 @@
+<div class="ef-kpi-grid">
+    <div class="ef-kpi-card elec">
+        <div class="ef-kpi-header">
+            <span class="ef-kpi-icon">⚡</span>
+            <span class="ef-kpi-label">Precio Luz (OMIE)</span>
+        </div>
+        <div class="ef-kpi-value">{{ .Get "elec_price" }} <span class="ef-kpi-unit">€/MWh</span></div>
+        <div class="ef-kpi-change {{ if findRE `^\+` (.Get "elec_var") }}up{{ else if findRE `^\-` (.Get "elec_var") }}down{{ end }}">
+            {{ .Get "elec_var" }}% vs ayer
+        </div>
+    </div>
+    <div class="ef-kpi-card gas">
+        <div class="ef-kpi-header">
+            <span class="ef-kpi-icon">🔥</span>
+            <span class="ef-kpi-label">Precio Gas (MIBGAS)</span>
+        </div>
+        <div class="ef-kpi-value">{{ .Get "gas_price" }} <span class="ef-kpi-unit">€/MWh</span></div>
+        <div class="ef-kpi-change {{ if findRE `^\+` (.Get "gas_var") }}up{{ else if findRE `^\-` (.Get "gas_var") }}down{{ end }}">
+            {{ .Get "gas_var" }}% vs ayer
+        </div>
+    </div>
+</div>
+
+<style>
+.ef-kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+.ef-kpi-card {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+.ef-kpi-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+.ef-kpi-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+.ef-kpi-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--secondary);
+    letter-spacing: 0.05em;
+}
+.ef-kpi-value {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: var(--primary);
+    line-height: 1;
+}
+.ef-kpi-unit {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--secondary);
+}
+.ef-kpi-change {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.ef-kpi-change.up { color: #ef4444; }
+.ef-kpi-change.down { color: #10b981; }
+
+/* Themes specific adjustments */
+.dark .ef-kpi-card {
+    background: #1d1e20;
+    border-color: #2e2e33;
+}
+</style>
