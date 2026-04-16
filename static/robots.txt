@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
-
+Disallow: /index.xml
+Disallow: /tags/
+Disallow: /categories/
 Sitemap: https://energyflash.powertrader.es/sitemap.xml
