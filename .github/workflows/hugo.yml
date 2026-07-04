@@ -42,8 +42,8 @@ jobs:
         run: |
           curl -L -o ${{ runner.temp }}/sass.tar.gz https://github.com/sass/dart-sass/releases/download/1.77.5/dart-sass-1.77.5-linux-x64.tar.gz
           tar -xf ${{ runner.temp }}/sass.tar.gz -C ${{ runner.temp }}
-          sudo mv ${{ runner.temp }}/dart-sass/sass /usr/local/bin/sass
-          sass --version
+          echo "${{ runner.temp }}/dart-sass" >> $GITHUB_PATH
+          ${{ runner.temp }}/dart-sass/sass --version
       - name: Checkout
         uses: actions/checkout@v4
         with:
