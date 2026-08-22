@@ -1,0 +1,56 @@
+﻿# ============================================================
+# EnergyFlash - Red de Seguridad Diaria (Backup Automático)
+# ============================================================
+# Se ejecuta todos los días a las 07:30 AM (hora Madrid / CEST)
+# que en UTC son las 05:30 AM (CEST = UTC+2).
+#
+# Secrets requeridos en el repositorio GitHub:
+#   GEMINI_API_KEY      -> Clave API de Google Gemini
+#   GOOGLE_CREDENTIALS  -> JSON completo de la cuenta de servicio de Google
+#
+# El GITHUB_TOKEN se inyecta automáticamente por GitHub Actions.
+# ============================================================
+
+name: "EnergyFlash Backup Diario (07:30 AM)"
+
+on:
+  # Cron en UTC: 05:30 AM UTC = 07:30 AM CEST (Madrid, verano)
+  schedule:
+    - cron: "30 5 * * *"
+
+  # Permite disparar el workflow manualmente desde la pestaña Actions
+  workflow_dispatch:
+
+permissions:
+  contents: write  # Necesario para hacer push del .md al repo
+
+jobs:
+  publish-backup:
+    name: "Generar y Publicar Informe de Backup"
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: "Checkout del repositorio"
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: "Configurar Python 3.12"
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: "Instalar dependencias Python"
+        run: |
+          pip install --upgrade pip
+          pip install gspread google-auth requests
+
+      - name: "Ejecutar script de generación de backup"
+        env:
+          GEMINI_API_KEY:     ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN:       ${{ secrets.GITHUB_TOKEN }}
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+        run: |
+          python EnergyFlash/scripts/generate_backup_flash.py
+        working-directory: ${{ github.workspace }}
