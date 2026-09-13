@@ -1,6 +1,7 @@
 ---
 title: "121,39 €/MWh en OMIE: La solar ilumina y lidera el mix ibérico"
 date: 2026-09-13T17:02:39+02:00
+summary: "El mercado eléctrico ibérico registra un precio medio de cierre de 121,39 EUR/MWh. La jornada viene marcada por una demanda peninsular de 578.138 MWh, fuertemente respaldada por el mix renovable."
 draft: false
 tags: ["Mercado Eléctrico", "OMIE", "MIBGAS", "EnergyFlash"]
 ---
