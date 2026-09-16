@@ -1,0 +1,24 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" style="font-family: sans-serif; max-width: 100%; height: auto;">
+  <rect width="100%" height="100%" fill="transparent" />
+  <line x1="60" y1="360.0" x2="740" y2="360.0" stroke="#2e2e33" stroke-width="1" />
+  <text x="50" y="364.0" text-anchor="end" font-size="12" fill="#b5b5b5">0</text>
+  <line x1="60" y1="298.0" x2="740" y2="298.0" stroke="#2e2e33" stroke-width="1" />
+  <text x="50" y="302.0" text-anchor="end" font-size="12" fill="#b5b5b5">51</text>
+  <line x1="60" y1="236.0" x2="740" y2="236.0" stroke="#2e2e33" stroke-width="1" />
+  <text x="50" y="240.0" text-anchor="end" font-size="12" fill="#b5b5b5">103</text>
+  <line x1="60" y1="173.99999999999997" x2="740" y2="173.99999999999997" stroke="#2e2e33" stroke-width="1" />
+  <text x="50" y="177.99999999999997" text-anchor="end" font-size="12" fill="#b5b5b5">155</text>
+  <line x1="60" y1="112.0" x2="740" y2="112.0" stroke="#2e2e33" stroke-width="1" />
+  <text x="50" y="116.0" text-anchor="end" font-size="12" fill="#b5b5b5">206</text>
+  <line x1="60" y1="50.0" x2="740" y2="50.0" stroke="#2e2e33" stroke-width="1" />
+  <text x="50" y="54.0" text-anchor="end" font-size="12" fill="#b5b5b5">258</text>
+  <text x="60.0" y="380" text-anchor="middle" font-size="11" fill="#b5b5b5">2026-</text>
+  <text x="173.33333333333331" y="380" text-anchor="middle" font-size="11" fill="#b5b5b5">2026-</text>
+  <text x="286.66666666666663" y="380" text-anchor="middle" font-size="11" fill="#b5b5b5">2026-</text>
+  <text x="400.0" y="380" text-anchor="middle" font-size="11" fill="#b5b5b5">2026-</text>
+  <text x="513.3333333333333" y="380" text-anchor="middle" font-size="11" fill="#b5b5b5">2026-</text>
+  <text x="626.6666666666666" y="380" text-anchor="middle" font-size="11" fill="#b5b5b5">2026-</text>
+  <text x="740.0" y="380" text-anchor="middle" font-size="11" fill="#b5b5b5">2026-</text>
+  <polyline points="60.0,360.0 173.33333333333331,360.0 286.66666666666663,360.0 400.0,360.0 513.3333333333333,360.0 626.6666666666666,360.0 740.0,360.0" fill="none" stroke="#004481" stroke-width="3" />
+  <polyline points="60.0,78.18181818181824 173.33333333333331,88.69634832112501 286.66666666666663,90.23096617498055 400.0,86.62221637802344 513.3333333333333,91.68165961495322 626.6666666666666,96.29750237850305 740.0,96.29750237850305" fill="none" stroke="#F2A900" stroke-width="3" />
+</svg>
