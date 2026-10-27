@@ -6,46 +6,46 @@
   <line x1="60" y1="300.0" x2="640" y2="300.0" stroke="#1f2937" stroke-width="1" />
   <text x="50" y="304.0" text-anchor="end" font-size="11" fill="#9ca3af">0</text>
   <line x1="60" y1="235.0" x2="640" y2="235.0" stroke="#1f2937" stroke-width="1" />
-  <text x="50" y="239.0" text-anchor="end" font-size="11" fill="#9ca3af">64</text>
+  <text x="50" y="239.0" text-anchor="end" font-size="11" fill="#9ca3af">62</text>
   <line x1="60" y1="170.0" x2="640" y2="170.0" stroke="#1f2937" stroke-width="1" />
-  <text x="50" y="174.0" text-anchor="end" font-size="11" fill="#9ca3af">129</text>
+  <text x="50" y="174.0" text-anchor="end" font-size="11" fill="#9ca3af">124</text>
   <line x1="60" y1="105.0" x2="640" y2="105.0" stroke="#1f2937" stroke-width="1" />
-  <text x="50" y="109.0" text-anchor="end" font-size="11" fill="#9ca3af">193</text>
+  <text x="50" y="109.0" text-anchor="end" font-size="11" fill="#9ca3af">186</text>
   <line x1="60" y1="40.0" x2="640" y2="40.0" stroke="#1f2937" stroke-width="1" />
-  <text x="50" y="44.0" text-anchor="end" font-size="11" fill="#9ca3af">258</text>
-  <text x="101.42857142857143" y="320" text-anchor="end" transform="rotate(-45, 101.42857142857143, 320)" font-size="11" font-weight="bold" fill="#ffffff">19/10</text>
-  <rect x="70.42857142857143" y="83.33333333333329" width="29.0" height="216.6666666666667" fill="#3b82f6" rx="3" />
-  <text x="84.92857142857143" y="75.33333333333329" text-anchor="middle" font-size="11" font-weight="bold" fill="#93c5fd">215.11</text>
-  <rect x="103.42857142857143" y="101.39338984336118" width="29.0" height="198.60661015663882" fill="#f59e0b" rx="3" />
-  <text x="117.92857142857143" y="93.39338984336118" text-anchor="middle" font-size="11" font-weight="bold" fill="#fcd34d">197.18</text>
-  <text x="184.28571428571428" y="320" text-anchor="end" transform="rotate(-45, 184.28571428571428, 320)" font-size="11" font-weight="bold" fill="#ffffff">20/10</text>
-  <rect x="153.28571428571428" y="103.06744416078794" width="29.0" height="196.93255583921206" fill="#3b82f6" rx="3" />
-  <text x="167.78571428571428" y="95.06744416078794" text-anchor="middle" font-size="11" font-weight="bold" fill="#93c5fd">195.52</text>
-  <rect x="186.28571428571428" y="166.8117015759967" width="29.0" height="133.1882984240033" fill="#f59e0b" rx="3" />
-  <text x="200.78571428571428" y="158.8117015759967" text-anchor="middle" font-size="11" font-weight="bold" fill="#fcd34d">132.23</text>
-  <text x="267.14285714285717" y="320" text-anchor="end" transform="rotate(-45, 267.14285714285717, 320)" font-size="11" font-weight="bold" fill="#ffffff">21/10</text>
-  <rect x="236.14285714285717" y="151.97318510455037" width="29.0" height="148.02681489544963" fill="#3b82f6" rx="3" />
-  <text x="250.64285714285717" y="143.97318510455037" text-anchor="middle" font-size="11" font-weight="bold" fill="#93c5fd">146.97</text>
-  <rect x="269.14285714285717" y="264.4459251427516" width="29.0" height="35.55407485724839" fill="#f59e0b" rx="3" />
-  <text x="283.64285714285717" y="256.4459251427516" text-anchor="middle" font-size="11" font-weight="bold" fill="#fcd34d">35.30</text>
-  <text x="350.0" y="320" text-anchor="end" transform="rotate(-45, 350.0, 320)" font-size="11" font-weight="bold" fill="#ffffff">22/10</text>
-  <rect x="319.0" y="143.24921617848918" width="29.0" height="156.75078382151082" fill="#3b82f6" rx="3" />
-  <text x="333.5" y="135.24921617848918" text-anchor="middle" font-size="11" font-weight="bold" fill="#93c5fd">155.63</text>
-  <rect x="352.0" y="248.0897856998216" width="29.0" height="51.91021430017842" fill="#f59e0b" rx="3" />
-  <text x="366.5" y="240.0897856998216" text-anchor="middle" font-size="11" font-weight="bold" fill="#fcd34d">51.54</text>
-  <text x="432.8571428571429" y="320" text-anchor="end" transform="rotate(-45, 432.8571428571429, 320)" font-size="11" font-weight="bold" fill="#ffffff">23/10</text>
-  <rect x="401.8571428571429" y="189.11484018176392" width="29.0" height="110.88515981823608" fill="#3b82f6" rx="3" />
-  <text x="416.3571428571429" y="181.11484018176392" text-anchor="middle" font-size="11" font-weight="bold" fill="#93c5fd">110.09</text>
-  <rect x="434.8571428571429" y="267.5642576898235" width="29.0" height="32.43574231017651" fill="#f59e0b" rx="3" />
-  <text x="449.3571428571429" y="259.5642576898235" text-anchor="middle" font-size="11" font-weight="bold" fill="#fcd34d">32.20</text>
-  <text x="515.7142857142858" y="320" text-anchor="end" transform="rotate(-45, 515.7142857142858, 320)" font-size="11" font-weight="bold" fill="#ffffff">24/10</text>
-  <rect x="484.7142857142858" y="161.81736829667963" width="29.0" height="138.18263170332037" fill="#3b82f6" rx="3" />
-  <text x="499.2142857142858" y="153.81736829667963" text-anchor="middle" font-size="11" font-weight="bold" fill="#93c5fd">137.19</text>
-  <rect x="517.7142857142858" y="274.16228314263594" width="29.0" height="25.837716857364054" fill="#f59e0b" rx="3" />
-  <text x="532.2142857142858" y="266.16228314263594" text-anchor="middle" font-size="11" font-weight="bold" fill="#fcd34d">25.65</text>
-  <text x="598.5714285714286" y="320" text-anchor="end" transform="rotate(-45, 598.5714285714286, 320)" font-size="11" font-weight="bold" fill="#ffffff">25/10</text>
-  <rect x="567.5714285714286" y="187.31023448788818" width="29.0" height="112.6897655121118" fill="#3b82f6" rx="3" />
-  <text x="582.0714285714286" y="179.31023448788818" text-anchor="middle" font-size="11" font-weight="bold" fill="#93c5fd">111.88</text>
-  <rect x="600.5714285714286" y="291.3790806978587" width="29.0" height="8.620919302141322" fill="#f59e0b" rx="3" />
-  <text x="615.0714285714286" y="283.3790806978587" text-anchor="middle" font-size="11" font-weight="bold" fill="#fcd34d">8.56</text>
+  <text x="50" y="44.0" text-anchor="end" font-size="11" fill="#9ca3af">248</text>
+  <text x="101.42857142857143" y="320" text-anchor="end" transform="rotate(-45, 101.42857142857143, 320)" font-size="11" font-weight="bold" fill="#ffffff">21/10</text>
+  <rect x="70.42857142857143" y="146.08844736199933" width="29.0" height="153.91155263800067" fill="#3b82f6" rx="3" />
+  <text x="84.92857142857143" y="138.08844736199933" text-anchor="middle" font-size="11" font-weight="bold" fill="#93c5fd">146.97</text>
+  <rect x="103.42857142857143" y="263.0324892976197" width="29.0" height="36.9675107023803" fill="#f59e0b" rx="3" />
+  <text x="117.92857142857143" y="255.0324892976197" text-anchor="middle" font-size="11" font-weight="bold" fill="#fcd34d">35.30</text>
+  <text x="184.28571428571428" y="320" text-anchor="end" transform="rotate(-45, 184.28571428571428, 320)" font-size="11" font-weight="bold" fill="#ffffff">22/10</text>
+  <rect x="153.28571428571428" y="137.01766107558154" width="29.0" height="162.98233892441846" fill="#3b82f6" rx="3" />
+  <text x="167.78571428571428" y="129.01766107558154" text-anchor="middle" font-size="11" font-weight="bold" fill="#93c5fd">155.63</text>
+  <rect x="186.28571428571428" y="246.0261190760958" width="29.0" height="53.9738809239042" fill="#f59e0b" rx="3" />
+  <text x="200.78571428571428" y="238.0261190760958" text-anchor="middle" font-size="11" font-weight="bold" fill="#fcd34d">51.54</text>
+  <text x="267.14285714285717" y="320" text-anchor="end" transform="rotate(-45, 267.14285714285717, 320)" font-size="11" font-weight="bold" fill="#ffffff">23/10</text>
+  <rect x="236.14285714285717" y="184.70665180365108" width="29.0" height="115.2933481963489" fill="#3b82f6" rx="3" />
+  <text x="250.64285714285717" y="176.70665180365108" text-anchor="middle" font-size="11" font-weight="bold" fill="#93c5fd">110.09</text>
+  <rect x="269.14285714285717" y="266.2747897166379" width="29.0" height="33.72521028336211" fill="#f59e0b" rx="3" />
+  <text x="283.64285714285717" y="258.2747897166379" text-anchor="middle" font-size="11" font-weight="bold" fill="#fcd34d">32.20</text>
+  <text x="350.0" y="320" text-anchor="end" transform="rotate(-45, 350.0, 320)" font-size="11" font-weight="bold" fill="#ffffff">24/10</text>
+  <rect x="319.0" y="156.32398151588663" width="29.0" height="143.67601848411337" fill="#3b82f6" rx="3" />
+  <text x="333.5" y="148.32398151588663" text-anchor="middle" font-size="11" font-weight="bold" fill="#93c5fd">137.19</text>
+  <rect x="352.0" y="273.1351166277091" width="29.0" height="26.86488337229088" fill="#f59e0b" rx="3" />
+  <text x="366.5" y="265.1351166277091" text-anchor="middle" font-size="11" font-weight="bold" fill="#fcd34d">25.65</text>
+  <text x="432.8571428571429" y="320" text-anchor="end" transform="rotate(-45, 432.8571428571429, 320)" font-size="11" font-weight="bold" fill="#ffffff">25/10</text>
+  <rect x="401.8571428571429" y="182.83030484286587" width="29.0" height="117.16969515713411" fill="#3b82f6" rx="3" />
+  <text x="416.3571428571429" y="174.83030484286587" text-anchor="middle" font-size="11" font-weight="bold" fill="#93c5fd">111.88</text>
+  <rect x="434.8571428571429" y="291.036360027765" width="29.0" height="8.963639972234976" fill="#f59e0b" rx="3" />
+  <text x="449.3571428571429" y="283.036360027765" text-anchor="middle" font-size="11" font-weight="bold" fill="#fcd34d">8.56</text>
+  <text x="515.7142857142858" y="320" text-anchor="end" transform="rotate(-45, 515.7142857142858, 320)" font-size="11" font-weight="bold" fill="#ffffff">26/10</text>
+  <rect x="484.7142857142858" y="93.83515479119106" width="29.0" height="206.16484520880894" fill="#3b82f6" rx="3" />
+  <text x="499.2142857142858" y="85.83515479119106" text-anchor="middle" font-size="11" font-weight="bold" fill="#93c5fd">196.86</text>
+  <rect x="517.7142857142858" y="189.64587683045514" width="29.0" height="110.35412316954486" fill="#f59e0b" rx="3" />
+  <text x="532.2142857142858" y="181.64587683045514" text-anchor="middle" font-size="11" font-weight="bold" fill="#fcd34d">105.37</text>
+  <text x="598.5714285714286" y="320" text-anchor="end" transform="rotate(-45, 598.5714285714286, 320)" font-size="11" font-weight="bold" fill="#ffffff">27/10</text>
+  <rect x="567.5714285714286" y="83.33333333333331" width="29.0" height="216.66666666666669" fill="#3b82f6" rx="3" />
+  <text x="582.0714285714286" y="75.33333333333331" text-anchor="middle" font-size="11" font-weight="bold" fill="#93c5fd">206.89</text>
+  <rect x="600.5714285714286" y="146.27605596008888" width="29.0" height="153.72394403991112" fill="#f59e0b" rx="3" />
+  <text x="615.0714285714286" y="138.27605596008888" text-anchor="middle" font-size="11" font-weight="bold" fill="#fcd34d">146.79</text>
 </svg>
