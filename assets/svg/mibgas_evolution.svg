@@ -6,32 +6,32 @@
         </linearGradient>
     </defs>
   <line x1="40" y1="250.0" x2="660" y2="250.0" stroke="#1f2937" stroke-dasharray="3,3" stroke-width="1"/>
-  <line x1="40" y1="183.33333333333334" x2="660" y2="183.33333333333334" stroke="#1f2937" stroke-dasharray="3,3" stroke-width="1"/>
-  <line x1="40" y1="116.66666666666669" x2="660" y2="116.66666666666669" stroke="#1f2937" stroke-dasharray="3,3" stroke-width="1"/>
+  <line x1="40" y1="183.33333333333337" x2="660" y2="183.33333333333337" stroke="#1f2937" stroke-dasharray="3,3" stroke-width="1"/>
+  <line x1="40" y1="116.66666666666663" x2="660" y2="116.66666666666663" stroke="#1f2937" stroke-dasharray="3,3" stroke-width="1"/>
   <line x1="40" y1="50.0" x2="660" y2="50.0" stroke="#1f2937" stroke-dasharray="3,3" stroke-width="1"/>
-  <text x="40.0" y="275" text-anchor="end" transform="rotate(-45, 40.0, 275)" font-size="11" font-weight="bold" fill="#9ca3af">31/10</text>
-  <text x="143.33333333333331" y="275" text-anchor="end" transform="rotate(-45, 143.33333333333331, 275)" font-size="11" font-weight="bold" fill="#9ca3af">02/11</text>
-  <text x="246.66666666666666" y="275" text-anchor="end" transform="rotate(-45, 246.66666666666666, 275)" font-size="11" font-weight="bold" fill="#9ca3af">04/11</text>
-  <text x="350.0" y="275" text-anchor="end" transform="rotate(-45, 350.0, 275)" font-size="11" font-weight="bold" fill="#9ca3af">06/11</text>
-  <text x="453.3333333333333" y="275" text-anchor="end" transform="rotate(-45, 453.3333333333333, 275)" font-size="11" font-weight="bold" fill="#9ca3af">08/11</text>
-  <text x="556.6666666666666" y="275" text-anchor="end" transform="rotate(-45, 556.6666666666666, 275)" font-size="11" font-weight="bold" fill="#9ca3af">10/11</text>
-  <text x="660.0" y="275" text-anchor="end" transform="rotate(-45, 660.0, 275)" font-size="11" font-weight="bold" fill="#9ca3af">12/11</text>
-  <polygon points="40.0,250 40.0,65.60062402496101 91.66666666666666,66.92667706708272 143.33333333333331,142.51170046801872 195.0,158.11232449297972 246.66666666666666,188.06552262090486 298.3333333333333,171.29485179407186 350.0,202.10608424336974 401.6666666666667,200.62402496099844 453.3333333333333,206.94227769110768 505.0,234.399375975039 556.6666666666666,208.81435257410294 608.3333333333334,200.23400936037444 660.0,157.25429017160684 660.0,250" fill="url(#gradGas)" />
-  <polyline points="40.0,65.60062402496101 91.66666666666666,66.92667706708272 143.33333333333331,142.51170046801872 195.0,158.11232449297972 246.66666666666666,188.06552262090486 298.3333333333333,171.29485179407186 350.0,202.10608424336974 401.6666666666667,200.62402496099844 453.3333333333333,206.94227769110768 505.0,234.399375975039 556.6666666666666,208.81435257410294 608.3333333333334,200.23400936037444 660.0,157.25429017160684" fill="none" stroke="#f97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="40.0" cy="65.60062402496101" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
-  <text x="40.0" y="53.60062402496101" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffedd5">103.65</text>
-  <circle cx="91.66666666666666" cy="66.92667706708272" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
-  <circle cx="143.33333333333331" cy="142.51170046801872" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
-  <circle cx="195.0" cy="158.11232449297972" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
-  <circle cx="246.66666666666666" cy="188.06552262090486" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
-  <circle cx="298.3333333333333" cy="171.29485179407186" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
-  <circle cx="350.0" cy="202.10608424336974" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
-  <circle cx="401.6666666666667" cy="200.62402496099844" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
-  <circle cx="453.3333333333333" cy="206.94227769110768" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
-  <circle cx="505.0" cy="234.399375975039" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
-  <text x="505.0" y="254.399375975039" text-anchor="middle" font-size="12" font-weight="bold" fill="#38bdf8">82.01</text>
-  <circle cx="556.6666666666666" cy="208.81435257410294" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
-  <circle cx="608.3333333333334" cy="200.23400936037444" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
-  <circle cx="660.0" cy="157.25429017160684" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
-  <text x="660.0" y="145.25429017160684" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffedd5">91.9</text>
+  <text x="40.0" y="275" text-anchor="end" transform="rotate(-45, 40.0, 275)" font-size="11" font-weight="bold" fill="#9ca3af">01/11</text>
+  <text x="143.33333333333331" y="275" text-anchor="end" transform="rotate(-45, 143.33333333333331, 275)" font-size="11" font-weight="bold" fill="#9ca3af">03/11</text>
+  <text x="246.66666666666666" y="275" text-anchor="end" transform="rotate(-45, 246.66666666666666, 275)" font-size="11" font-weight="bold" fill="#9ca3af">05/11</text>
+  <text x="350.0" y="275" text-anchor="end" transform="rotate(-45, 350.0, 275)" font-size="11" font-weight="bold" fill="#9ca3af">07/11</text>
+  <text x="453.3333333333333" y="275" text-anchor="end" transform="rotate(-45, 453.3333333333333, 275)" font-size="11" font-weight="bold" fill="#9ca3af">09/11</text>
+  <text x="556.6666666666666" y="275" text-anchor="end" transform="rotate(-45, 556.6666666666666, 275)" font-size="11" font-weight="bold" fill="#9ca3af">11/11</text>
+  <text x="660.0" y="275" text-anchor="end" transform="rotate(-45, 660.0, 275)" font-size="11" font-weight="bold" fill="#9ca3af">13/11</text>
+  <polygon points="40.0,250 40.0,65.70475068708282 91.66666666666666,141.7942677659992 143.33333333333331,157.49901845308204 195.0,187.65213977228115 246.66666666666666,170.76953278366716 298.3333333333333,201.78641539065566 350.0,200.29446407538282 401.6666666666667,206.6548881036514 453.3333333333333,234.29524931291715 505.0,208.53945818610129 556.6666666666666,199.90184530820576 608.3333333333334,156.6352571652925 660.0,170.21986650961918 660.0,250" fill="url(#gradGas)" />
+  <polyline points="40.0,65.70475068708282 91.66666666666666,141.7942677659992 143.33333333333331,157.49901845308204 195.0,187.65213977228115 246.66666666666666,170.76953278366716 298.3333333333333,201.78641539065566 350.0,200.29446407538282 401.6666666666667,206.6548881036514 453.3333333333333,234.29524931291715 505.0,208.53945818610129 556.6666666666666,199.90184530820576 608.3333333333334,156.6352571652925 660.0,170.21986650961918" fill="none" stroke="#f97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="40.0" cy="65.70475068708282" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
+  <text x="40.0" y="53.70475068708282" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffedd5">103.48</text>
+  <circle cx="91.66666666666666" cy="141.7942677659992" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
+  <circle cx="143.33333333333331" cy="157.49901845308204" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
+  <circle cx="195.0" cy="187.65213977228115" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
+  <circle cx="246.66666666666666" cy="170.76953278366716" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
+  <circle cx="298.3333333333333" cy="201.78641539065566" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
+  <circle cx="350.0" cy="200.29446407538282" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
+  <circle cx="401.6666666666667" cy="206.6548881036514" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
+  <circle cx="453.3333333333333" cy="234.29524931291715" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
+  <text x="453.3333333333333" y="254.29524931291715" text-anchor="middle" font-size="12" font-weight="bold" fill="#38bdf8">82.01</text>
+  <circle cx="505.0" cy="208.53945818610129" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
+  <circle cx="556.6666666666666" cy="199.90184530820576" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
+  <circle cx="608.3333333333334" cy="156.6352571652925" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
+  <circle cx="660.0" cy="170.21986650961918" r="4" fill="#0b0f19" stroke="#f97316" stroke-width="2"/>
+  <text x="660.0" y="158.21986650961918" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffedd5">90.17</text>
 </svg>
